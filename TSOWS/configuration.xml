@@ -1,0 +1,59 @@
+<process>
+  <process-def name=":TSOWS:configuration">
+    <sequence>
+      <assign>
+        <assignment>
+          <output global="true">
+            <to>TSOWS_AdapterNames</to>
+            <value>
+              <SMTP is-value-node="true" value-type="string">SMTPadapter</SMTP>
+            </value>
+            <configuration />
+          </output>
+        </assignment>
+        <assignment>
+          <output global="true">
+            <to>Email_Addresses</to>
+            <value>
+              <FROM is-value-node="true" value-type="string">baoadmin@bmc.local</FROM>
+              <TO is-value-node="true" value-type="string">syslog@bmc.local</TO>
+            </value>
+            <configuration />
+          </output>
+        </assignment>
+      </assign>
+    </sequence>
+    <upgraded>20.02.00</upgraded>
+    <meta>
+      <documentation>
+        <description>Parameterized Configuration for TSOWS module</description>
+        <modification-history>
+          <modification>
+            <by>aoadmin</by>
+            <date>07/25/2022 20:28 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 20:29 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 20:29 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 20:30 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 20:31 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 20:32 PM</date>
+          </modification>
+        </modification-history>
+      </documentation>
+    </meta>
+  </process-def>
+</process>

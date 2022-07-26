@@ -1,0 +1,37 @@
+<process>
+  <process-def name=":Hello_World:configuration">
+    <sequence>
+      <assign>
+        <assignment>
+          <output global="true">
+            <to>HW_AdpaterNames</to>
+            <value>
+              <FILE is-value-node="true" value-type="string">FILEadapter</FILE>
+            </value>
+            <configuration />
+          </output>
+        </assignment>
+      </assign>
+    </sequence>
+    <upgraded>20.02.00</upgraded>
+    <meta>
+      <documentation>
+        <description>Parameterized Configuration for Hello_World module</description>
+        <modification-history>
+          <modification>
+            <by>aoadmin</by>
+            <date>07/25/2022 19:58 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 19:59 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 20:00 PM</date>
+          </modification>
+        </modification-history>
+      </documentation>
+    </meta>
+  </process-def>
+</process>
