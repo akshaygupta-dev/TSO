@@ -7,6 +7,9 @@
             <to>TSOWS_AdapterNames</to>
             <value>
               <SMTP is-value-node="true" value-type="string">SMTPadapter</SMTP>
+              <SSH is-value-node="true" value-type="string">SSHadapter</SSH>
+              <WINCMD is-value-node="true" value-type="string">WINCMDadapter</WINCMD>
+              <PowerShell is-value-node="true" value-type="string">POWERSHELLadapter</PowerShell>
             </value>
             <configuration />
           </output>
@@ -51,6 +54,18 @@
           <modification>
             <by>Administrator</by>
             <date>07/25/2022 20:32 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 22:38 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 22:50 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/25/2022 22:50 PM</date>
           </modification>
         </modification-history>
       </documentation>
