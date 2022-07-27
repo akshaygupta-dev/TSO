@@ -10,6 +10,7 @@
               <SSH is-value-node="true" value-type="string">SSHadapter</SSH>
               <WINCMD is-value-node="true" value-type="string">WINCMDadapter</WINCMD>
               <PowerShell is-value-node="true" value-type="string">POWERSHELLadapter</PowerShell>
+              <SQLactor is-value-node="true" value-type="string">SQLactor</SQLactor>
             </value>
             <configuration />
           </output>
@@ -66,6 +67,10 @@
           <modification>
             <by>Administrator</by>
             <date>07/25/2022 22:50 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/26/2022 20:09 PM</date>
           </modification>
         </modification-history>
       </documentation>
