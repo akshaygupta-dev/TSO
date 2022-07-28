@@ -11,6 +11,8 @@
               <WINCMD is-value-node="true" value-type="string">WINCMDadapter</WINCMD>
               <PowerShell is-value-node="true" value-type="string">POWERSHELLadapter</PowerShell>
               <SQLactor is-value-node="true" value-type="string">SQLactor</SQLactor>
+              <HTTP is-value-node="true" value-type="string">HTTPadapter</HTTP>
+              <FILE is-value-node="true" value-type="string">FILEadapter</FILE>
             </value>
             <configuration />
           </output>
@@ -71,6 +73,14 @@
           <modification>
             <by>Administrator</by>
             <date>07/26/2022 20:09 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/27/2022 18:29 PM</date>
+          </modification>
+          <modification>
+            <by>Administrator</by>
+            <date>07/27/2022 19:55 PM</date>
           </modification>
         </modification-history>
       </documentation>
